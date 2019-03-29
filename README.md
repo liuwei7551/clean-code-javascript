@@ -43,6 +43,22 @@ shaped into its final form. Finally, we chisel away the imperfections when
 we review it with our peers. Don't beat yourself up for first drafts that need
 improvement. Beat up the code instead!
 
+## **变量名**
+
+### 使用可读性高的有意义的变量名
+
+**Bad:**
+
+```javascript
+const yyyymmdstr = moment().format("YYYY/MM/DD");
+```
+
+**Good:**
+
+```javascript
+const currentDate = moment().format("YYYY/MM/DD");
+```
+
 ## **Variables**
 
 ### Use meaningful and pronounceable variable names
